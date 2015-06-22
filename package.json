@@ -1,0 +1,28 @@
+{
+  "name": "cuid24",
+  "version": "1.2.7",
+  "repository": "pH200/cuid24",
+  "description": "cuid without the 'c' prefix and lengthed 24 characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": {
+    "name": "pH200",
+    "email": "ph.minamo@cytisan.com"
+  },
+  "keywords": [
+    "uid",
+    "unique id",
+    "guid",
+    "uuid",
+    "cuid"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cuid": "^1.2.5"
+  },
+  "devDependencies": {
+    "tape": "^4.0.0"
+  }
+}
